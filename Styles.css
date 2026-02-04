@@ -1,111 +1,24 @@
-.Titulo-Pagina {
-    font-size: 36px;
-    color: #2c3e50;
-    text-align: center;
-    margin-top: 20px;
-    font-family: 'Arial Black', sans-serif;
+.header {
+    width: 100%;
 }
-.dropdown {
-    position: relative;
-    display: inline-block;
-    margin-left: 20px;
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px 32px;
+}
+nav h1 {
+    margin: 0;
+    text-align: center;
 }
 .dropdown-options {
     display: none;
+    padding: 8px 16px;
     position: absolute;
-    background-color: #f9f9f9;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
 }
-.Inicio {
-    background-color: #3498db;
-    color: white;
-    padding: 10px 20px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-    cursor: pointer;
-    border: none;
-    border-radius: 4px;
+.dropdown:hover .dropdown-options {
+    display: block;
 }
-.Nosotros {
-    background-color: #2ecc71;
-    color: white;
-    padding: 10px 20px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-    cursor: pointer;
-    border: none;
-    border-radius: 4px;
-}
-.Objetivos {
-    background-color: #e67e22;
-    color: white;
-    padding: 10px 20px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-    cursor: pointer;
-    border: none;
-    border-radius: 4px;
-}
-.Mision {
-    background-color: #9b59b6;
-    color: white;
-    padding: 10px 20px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-    cursor: pointer;
-    border: none;
-    border-radius: 4px;
-}
-.Vision {
-    background-color: #e74c3c;
-    color: white;
-    padding: 10px 20px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-    cursor: pointer;
-    border: none;
-    border-radius: 4px;
-}
-.Contacto {
-    background-color: #1abc9c;
-    color: white;
-    padding: 10px 20px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-    cursor: pointer;
-    border: none;
-    border-radius: 4px;
-}
-.Razon-Social {
-    background-color: #34495e;
-    color: white;
-    padding: 10px 20px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-    cursor: pointer;
-    border: none;
-    border-radius: 4px;
+.dropdown {
+    position: relative;
 }
