@@ -3,6 +3,7 @@ header {
 }
 nav {
     display: flex;
+    flex-direction: row;
     align-items: center;
     justify-content: space-between;
     padding: 16px 32px;
@@ -35,4 +36,8 @@ nav {
 }
 .dropdown {
     position: relative;
+}
+nav {
+    background-color: #f1f1f1; /* fondo del header */
+    border: 2px solid black;
 }
