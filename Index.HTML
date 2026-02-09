@@ -10,7 +10,7 @@
         <header>
     <nav>
         <div class="nav-left">
-            <img src="Imagenes/Logo.png" alt="Logo Semillero Prometeo">
+            <img src="logopequeno.png" alt="Logo Semillero Prometeo">
         </div>
         <div class="nav-center">
 
@@ -19,13 +19,13 @@
                 <div class="nav-right dropdown">
                 <button>Menu</button>
                     <div class="dropdown-options">
-                        <a href="#">Inicio</a>
-                        <a href="#">Nosotros</a>
-                        <a href="#">Objetivos</a>
-                        <a href="#">Mision</a>
-                        <a href="#">Vision</a>
-                        <a href="#">Contacto</a>
-                        <a href="#">Razon Social</a>
+                        <a href="#Inicio">Inicio</a>
+                        <a href="#Nosotros">Nosotros</a>
+                        <a href="#Objetivos">Objetivos</a>
+                        <a href="#Mision">Mision</a>
+                        <a href="#Vision">Vision</a>
+                        <a href="#Contacto">Contacto</a>
+                        <a href="#Razon-Social">Razon Social</a>
                     </div>
                  </div>
     </nav>
@@ -33,22 +33,26 @@
 
     <main>
         <section class="Inicio">
-
+            <h2>Inicio</h2>
+            <p>
+                Somos estudiantes de Ingeniería de Sistemas y esta página presenta
+                el inicio de nuestro proyecto academico, nuestra misión, visión y objetivos.
+            </p>
         </section>
 
-        <section class="Nosotros">
+        <section id="Nosotros">
             <h2>Nosotros</h2>
-            <figure class="Sergio Galvis">
-                <img src="" alt="Sergio Galvis">
-                <figcaption></figcaption>
-            </figure>
-            <figure class="Diego Patiño">
-                <img src="" alt="Diego Patiño">
-                <figcaption></figcaption>
-            </figure>
+            <div class="nosotros-sergio">   
+                <img src="SergioGalvis.jpeg" alt="Sergio Galvis" width="250" height="300">
+                <h3 id="SergioGalvis">Sergio Galvis</h3>
+            </div>
+            <div class="nosotros-diego">
+                <img src="DiegoPatiño.jpeg" alt="Diego Patiño" width="300" height="300">
+                <h3 id="DiegoPatiño">Diego Patiño</h3> 
+            </div>
         </section>
 
-        <section class="Objetivos">
+        <section id="Objetivos">
             <h2>Objetivos</h2>
             <ul>
                 <li>Desarrollar habilidades blandas y duras en los integrantes del semillero.</li>
@@ -59,7 +63,7 @@
         </section>
 
 
-        <section class="Mision">
+        <section id="Mision">
             <h2>Mision</h2>
             <p>Desarrollar una Pagina Web que le de una mayor visibilidad al Semillero Prometeo
                 y a sus integrantes, para que asi la comunidad universitaria y el publico en general
@@ -67,7 +71,7 @@
             </p>
         </section>
 
-        <section class="Vision">
+        <section id="Vision">
             <h2>Vision</h2>
             <p>Imaginamos un mundo en el que con una visibilidad mayor del Semillero Prometeo, sus proyectos y actividades,
                 se fomente y logre la inspiracion a las personas a cambiar el mundo a traves de la tecnologia y la innovacion.
@@ -76,14 +80,26 @@
 
         <section class="Contacto">
             <h2>Contacto</h2>
-            <form>
+            <div class="contenedor-contacto">
 
-            </form>
+                <div class="contacto-estudiante">
+                <h3>Sergio Galvis</h3>
+                <p><strong>Correo:</strong> sergioe-galvism@unilibre.edu.co</p>
+                <p><strong>Teléfono:</strong> +57 310 745 13 17</p>
+                </div>
+
+                <div class="contacto-estudiante">
+                <h3>Diego Patiño</h3>
+                <p><strong>Correo:</strong>diegol-patinof@unilibre.edu.co</p>
+                <p><strong>Teléfono:</strong> +57 319 357 23 36</p>
+                </div>
+
+            </div>
         </section>
 
-        <section class="Razon-Social">
+        <section id="Razon-Social">
             <h2>Razon Social</h2>
-            <p>Semillero Prometeo - Grupo de Programacion</p>
+            <p>Semillero Prometeo - Universidad Libre</p>
         </section>
     </main>
 
